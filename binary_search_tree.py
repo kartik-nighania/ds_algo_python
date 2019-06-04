@@ -35,5 +35,5 @@ def insert(root, val):
 def inorder(root):
     inorder(root.left)
     print(root.value)
-    inorder(root.left)
+    inorder(root.right)
 
